@@ -1,0 +1,11 @@
+{
+  "name": "jquery-target-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BaseCampCoding/jquery-target-practice",
+  "author": "Nate Clark",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
