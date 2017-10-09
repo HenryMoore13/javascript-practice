@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <title>JQuery Target Practice</title>
+
 </head>
 
 <body>
@@ -14,8 +15,112 @@
         <div class="jumbotron">
             <h1>JQuery Target Practice!</h1>
         </div>
+
+        <div class="row well">
+            <h3>Instructions</h3>
+            <p>This page contains a bunch of html elements for you to play with.</p>
+            <p>Each
+                <code> section </code> has instructions for you to follow.</p>
+            <p>In order to complete all the exercises, you will need to refer to
+                <a href="https://api.jquery.com/">JQuery Documentation</a> and inspect the page</p>
+        </div>
+
+        <div id="set-col-3" class="row well">
+            <div>
+                <h4>Use JQuery to select this div and add col-lg-3.</h4>
+            </div>
+        </div>
+
+        <div id="background-swap" class="row well">
+            <div class="col-lg-6" style="background: blue; color: white">
+                <h4>Change this background to be red</h4>
+            </div>
+            <div class="col-lg-6" style="background: red; color: white">
+                <h4>Change this background to be blue</h4>
+            </div>
+        </div>
+
+        <div id="favorites" class="row well">
+            <h4>Add 3 of your favorite things as
+                <code>li</code> elements to the following
+                <code>ul</code>.
+            </h4>
+            <ul>
+                <li>Programming!</li>
+            </ul>
+        </div>
+
+        <div class="row well" id="hide-show">
+            <div class="col-lg-6">
+                <h4>Hide this element</h4>
+            </div>
+
+            <div class="col-lg-6">
+                <h4>And then show it again.</h4>
+            </div>
+        </div>
+
+        <div class="row well" id="success-danger">
+            <div class="panel panel-success">
+                <div class="panel-heading">ALERT! DANGER AHEAD</div>
+                <div class="panel-body">This panel is incorrectly styled! Change it from
+                    <code>panel-success</code> to
+                    <code>panel-danger</code>
+                </div>
+            </div>
+        </div>
+
+        <div class="row well" id="button-disable">
+            <h4>The button below is way too dangerous to let anyone push. You should
+                <a href="https://www.w3schools.com/tags/att_input_disabled.asp">disable</a> it.</h4>
+            <input type="button" class="btn btn-danger" value="FIRE THE LASER!">
+        </div>
+
+        <div class="row well" id="readonly-input">
+            <h4>We already know the answer to the following input. You should make the input element
+                <a href="https://getbootstrap.com/docs/3.3/css/#forms-control-readonly">readonly</a>
+            </h4>
+            <label for="school">School:</label>
+            <input type="text" class="form-control" value="Base Camp Coding Academy">
+        </div>
+
+        <div class="row well" id="text-html">
+            <h4>What is the difference between JQuery's
+                <code>text</code> method and its
+                <code>html</code> method?</h4>
+
+            <div id="add-as-text" class="col-lg-6">
+                <p>Set the contents of this div with
+                    <code>.text("&lt;h1&gt; Hey Mom!&lt;/h1&gt;")</code>
+                </p>
+            </div>
+
+            <div id="add-as-html" class="col-lg-6">
+                <p>Set the contents of this div with
+                    <code>.html("&lt;h1&gt; Hey Mom!&lt;/h1&gt;")</code>
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row well" id="input-value">
+            <h4>You can use JQuery to get the current value of an input field. Play with the input fields below, and use JQuery
+                to find the value.</h4>
+            <div class="col-lg-3">
+                <input id="text-input" class="form-control" type="text">
+                <input id="date-input" class="form-control" type="date">
+                <input id="range-input" class="form-control" type="range">
+            </div>
+        </div>
+
+        <div class="row well" id="add-on-click">
+            <h4>This button doesn't live up to expectation. Use
+                <code>.click</code> to add an on click handler that alerts the user.</h4>
+            <button class="btn btn-danger">ALERT!</button>
+        </div>
     </div>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+
+    <script src=" node_modules/jquery/dist/jquery.js "></script>
 </body>
 
 </html>
